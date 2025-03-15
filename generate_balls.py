@@ -345,7 +345,7 @@ def run_simulation_with_joint_control():
         
         # Delete the temporary XML
         try:
-            os.remove(temp_xml_path)
+            #os.remove(temp_xml_path)
             print(f"Removed temporary file: {temp_xml_path}")
         except:
             print(f"Note: Could not remove temporary file: {temp_xml_path}")
