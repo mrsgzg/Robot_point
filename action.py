@@ -2,7 +2,7 @@ import mujoco
 import numpy as np
 import glfw
 import time
-
+from ball_generation import generate_balls_module
 # Configuration
 BALL_HEIGHT_OFFSET = 0.05  # 5cm above ball surface
 XML_PATH = "model_with_balls.xml"  # Assumes generate_balls.py creates this
@@ -215,7 +215,7 @@ class BallPointingTest:
         if leftmost_ball is None:
             raise ValueError("No balls found in the simulation")
         
-        leftmost_ball = self.ball_geoms[9]
+        #leftmost_ball = self.ball_geoms[9]
 
         return leftmost_ball, self.model.geom(leftmost_ball).pos
     
@@ -418,6 +418,11 @@ class BallPointingTest:
 
 def main():
     # Create the pointing test instance
+    output_path, num_balls_added = generate_balls_module.generate_balls_xml(xml_path='experiment_scen.xml',
+                                                    output_path="model_with_balls.xml", num_balls=1, 
+                                                    ball_size=0.03, ball_height=0.05, 
+                                                    min_x=-0.5, max_x=0.5, min_y=-0.5, max_y=0.3)
+    print(f"Created model with {num_balls_added} white balls at {output_path}")
     pointing_test = BallPointingTest(XML_PATH)
     
     # Run the pointing demonstration
