@@ -372,7 +372,11 @@ class ImprovedBallPointingTest:
         
         # Apply the calculated angle to joint7
         joint7_idx = self.joint_indices[6]  # joint7 (last joint)
-        ik_data.qpos[joint7_idx] = angle_yz-0.02
+        ik_data.qpos[joint7_idx] = angle_yz
+
+        joint6_idx = self.joint_indices[5]
+        ik_data.qpos[joint6_idx] = ik_data.qpos[joint6_idx] +0.35
+
         #print(angle_yz)
         
         # Run forward kinematics again to update hand position with new joint7 angle
@@ -688,11 +692,11 @@ def main():
         xml_path=xml_path,
         output_path=output_path, 
         num_balls=8,  # Number of balls to count
-        ball_size=0.02, 
+        ball_size=0.01, 
         ball_height=0.05,
         # Place balls in a wider area in a row for left-to-right counting
         min_x=-0.1, max_x=0.1,  # Wide area from left to right
-        min_y=-0.5, max_y=-0.1  # In front of robot, at a good distance
+        min_y=-0.15, max_y=-0.05  # In front of robot, at a good distance
     )
     
     print(f"Created model with {num_balls_added} balls at {output_path}")
