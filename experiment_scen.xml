@@ -159,18 +159,22 @@
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
       <!-- Balls removed from here -->
-      <body name="camera_body" pos="0 -0.7 1">
-        <!-- 添加质量和惯性 -->
+      <body name="camera_body" pos="0 -0.3 0.3">
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
-        <!-- 添加垂直轴旋转关节 -->
+        <!-- Pan joint (horizontal rotation) -->
         <joint name="camera_pan" type="hinge" axis="0 0 1" range="-180 180" damping="1"/>
-        
-        <!-- 摄像头几何体和传感器 -->
-        <geom name="camera_body" type="box" size="0.04 0.025 0.025" material="camera_body_mat" contype="0" conaffinity="0" group="4"/>
-        <geom name="camera_lens" type="cylinder" size="0.01 0.02" pos="0.07 0 -0.07" quat="0.7071 0 0 0.7071" material="camera_lens_mat" contype="0" conaffinity="0" group="4"/>
-        
-        <!-- 摄像头传感器 - 强制向下倾斜45度，确保能看到桌面 -->
-        <camera name="table_cam" pos="0 0 0" euler="0.785398 0 0" fovy="60"/>
+      
+        <!-- Add a camera mount that can tilt -->
+        <body name="camera_mount" pos="0 0 0">
+            <inertial mass="0.1" pos="0 0 0" diaginertia="0.0005 0.0005 0.0005"/>
+            <!-- Tilt joint (vertical rotation) -->
+            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-90 90" damping="1"/>
+          
+            <!-- Camera geometry and sensor -->
+            <geom name="camera_body" type="box" size="0.04 0.025 0.025" material="camera_body_mat" contype="0" conaffinity="0" group="4"/>
+            <geom name="camera_lens" type="cylinder" size="0.01 0.02" pos="0.07 0 -0.07" quat="0.7071 0 0 0.7071" material="camera_lens_mat" contype="0" conaffinity="0" group="4"/>
+            <camera name="table_cam" pos="0 0 0" fovy="60"/>
+        </body>
       </body>
     </body>
     
@@ -345,9 +349,11 @@
       
     <!-- 摄像头控制器 -->
     <position name="camera_pan_control" joint="camera_pan" kp="10"/>
+    <position name="camera_tilt_control" joint="camera_tilt" kp="10"/>
+
   </actuator>
 
   <keyframe>
-    <key name="home" qpos="0 0 0 -1.57079 0 1.57079 -0.7853 0.04 0.04 0" ctrl="0 0 0 -1.57079 0 1.57079 -0.7853 255 0"/>
+    <key name="home" qpos="0 0 0 -1.57079 0 1.57079 -0.7853 0.04 0.04 0 0" ctrl="0 0 0 -1.57079 0 1.57079 -0.7853 255 0 0"/>
   </keyframe>
 </mujoco>
