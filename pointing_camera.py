@@ -2,10 +2,11 @@ import mujoco
 import numpy as np
 import glfw
 import time
+import OpenGL.GL as GL
 from ball_generation import generate_balls_module
 
 # Configuration
-POINT_OFFSET_DISTANCE = 0.25  # Height above the ball when pointing down
+POINT_OFFSET_DISTANCE = 0.15  # Height above the ball when pointing down
 XML_PATH = "model_with_balls.xml"  # Path to the generated XML file
 PAUSE_TIME = 1.0  # Seconds to pause at each ball when counting
 
@@ -83,6 +84,13 @@ class ImprovedBallPointingTest:
         self.target_joint_positions = None
         self.interpolation_progress = 0.0
         
+        # State variables for rendering
+        self.current_ball_index = 0
+        self.motion_phase = "moving"
+        self.frame = 0
+        self.interpolation_steps = 120
+        self.pause_until = 0
+        
         # Counting state
         self.current_count = 0
         self.counted_balls = []
@@ -135,6 +143,16 @@ class ImprovedBallPointingTest:
         glfw.set_cursor_pos_callback(self.window, self.mouse_move_callback)
         glfw.set_scroll_callback(self.window, self.scroll_callback)
         glfw.set_key_callback(self.window, self.key_callback)
+        
+        # Create camera context buffers for the table camera
+        self.table_cam_id = mujoco.mj_name2id(self.model, mujoco.mjtObj.mjOBJ_CAMERA, "table_cam")
+        if self.table_cam_id == -1:
+            print("Warning: 'table_cam' not found in model")
+        else:
+            print(f"Found table_cam at id {self.table_cam_id}")
+            
+        # Create context for table camera
+        self.table_cam_context = mujoco.MjrContext(self.model, mujoco.mjtFontScale.mjFONTSCALE_150)
         
         return True
     
@@ -328,7 +346,7 @@ class ImprovedBallPointingTest:
                 for i, joint_idx in enumerate(self.joint_indices):
                     qpos[joint_idx] += dq[i]
                     
-                    # Apply joint limits
+                    # Apply joint limits if available
                     try:
                         jnt_range = self.model.jnt_range[joint_idx]
                         lower_limit = jnt_range[0]
@@ -372,8 +390,7 @@ class ImprovedBallPointingTest:
         
         # Apply the calculated angle to joint7
         joint7_idx = self.joint_indices[6]  # joint7 (last joint)
-        ik_data.qpos[joint7_idx] = angle_yz-0.02
-        #print(angle_yz)
+        ik_data.qpos[joint7_idx] = angle_yz - 0.02  # Small offset for better pointing
         
         # Run forward kinematics again to update hand position with new joint7 angle
         mujoco.mj_forward(self.model, ik_data)
@@ -413,6 +430,38 @@ class ImprovedBallPointingTest:
         """
         # Cubic ease-in/ease-out function
         return 3*t**2 - 2*t**3
+
+    def render_scene_with_camera_view(self, scene, context, viewport_width, viewport_height):
+        """Render the scene with optional camera view"""
+        # Main viewport (full window)
+        main_viewport = mujoco.MjrRect(0, 0, viewport_width, viewport_height)
+        
+        # Render main view
+        mujoco.mjr_render(main_viewport, scene, context)
+        
+        # Add status text to main view
+        if self.motion_phase == "moving":
+            if self.frame < self.interpolation_steps:
+                progress_text = f"Counting: Ball {self.current_ball_index+1}/{len(self.ball_geoms)} - Moving: {(self.frame/self.interpolation_steps)*100:.1f}%"
+            else:
+                progress_text = f"Counting: Ball {self.current_ball_index+1}/{len(self.ball_geoms)} - Arrived"
+        else:  # paused
+            countdown = self.pause_until - time.time()
+            progress_text = f"Counting: Ball {self.current_ball_index+1}/{len(self.ball_geoms)} - Counting: {countdown:.1f}s"
+        
+        mujoco.mjr_overlay(
+            mujoco.mjtFontScale.mjFONTSCALE_150, 
+            mujoco.mjtGridPos.mjGRID_TOPLEFT, 
+            main_viewport, progress_text, "", context
+        )
+        
+        # Count status display
+        count_text = f"Counted: {len(self.counted_balls)}/{len(self.ball_geoms)} balls"
+        mujoco.mjr_overlay(
+            mujoco.mjtFontScale.mjFONTSCALE_150, 
+            mujoco.mjtGridPos.mjGRID_BOTTOMLEFT, 
+            main_viewport, count_text, "", context
+        )
     
     def point_at_balls_in_sequence(self):
         """Position the gripper to point at balls in sequence from left to right"""
@@ -459,27 +508,22 @@ class ImprovedBallPointingTest:
         
         # Timing variables
         last_time = time.time()
-        pause_until = 0
+        self.pause_until = 0
         
         # Cycle through all balls in left-to-right order
-        current_ball_index = 0
-        motion_phase = "moving"  # "moving" or "paused"
-        frame = 0
-        interpolation_steps = 120  # More steps for smoother motion
-        
         while not glfw.window_should_close(self.window):
             current_time = time.time()
             
             # Handle pause timing for counting
-            if motion_phase == "paused":
-                if current_time >= pause_until:
+            if self.motion_phase == "paused":
+                if current_time >= self.pause_until:
                     # Move to next ball
-                    current_ball_index += 1
-                    if current_ball_index >= len(self.ball_geoms):
+                    self.current_ball_index += 1
+                    if self.current_ball_index >= len(self.ball_geoms):
                         # Finished all balls, reset or exit
                         break
-                    motion_phase = "moving"
-                    frame = 0
+                    self.motion_phase = "moving"
+                    self.frame = 0
                     
                     # Update initial joint positions
                     for i, joint_idx in enumerate(self.joint_indices):
@@ -489,29 +533,29 @@ class ImprovedBallPointingTest:
                         initial_finger_joints[i] = self.data.qpos[joint_idx]
             
             # If in moving phase, calculate new positions
-            if motion_phase == "moving":
+            if self.motion_phase == "moving":
                 # Get the current ball
-                ball_id = self.ball_geoms[current_ball_index]
+                ball_id = self.ball_geoms[self.current_ball_index]
                 ball_pos = self.model.geom(ball_id).pos.copy()
                 
                 # Calculate joint angles for pointing at this ball (if not already calculated)
-                if frame == 0:
+                if self.frame == 0:
                     joint_angles = self.calculate_improved_ik(ball_pos)
                     target_arm_joints = joint_angles['arm_joints']
                     target_finger_joints = joint_angles['finger_joints']
                 
                 # Calculate interpolation factor
-                if frame < interpolation_steps:
+                if self.frame < self.interpolation_steps:
                     # Linear interpolation parameter
-                    t = frame / interpolation_steps
+                    t = self.frame / self.interpolation_steps
                     # Apply smooth interpolation function
                     smooth_t = self.smooth_interpolation(t)
                 else:
                     smooth_t = 1.0
                     # Transition to paused state
-                    motion_phase = "paused"
-                    pause_until = current_time + PAUSE_TIME
-                    self.counted_balls.append(current_ball_index)
+                    self.motion_phase = "paused"
+                    self.pause_until = current_time + PAUSE_TIME
+                    self.counted_balls.append(self.current_ball_index)
                 
                 # Interpolate joint positions
                 for i, joint_idx in enumerate(self.joint_indices):
@@ -556,7 +600,7 @@ class ImprovedBallPointingTest:
                                 pass
                 
                 # Increment frame counter
-                frame += 1
+                self.frame += 1
             
             # Forward kinematics
             try:
@@ -571,18 +615,13 @@ class ImprovedBallPointingTest:
                 
                 # Get viewport
                 viewport_width, viewport_height = glfw.get_framebuffer_size(self.window)
-                viewport = mujoco.MjrRect(0, 0, viewport_width, viewport_height)
                 
                 # Add visualization for all balls with different colors based on state
                 for idx, ball_id in enumerate(self.ball_geoms):
                     ball_pos = self.model.geom(ball_id).pos.copy()
                     
-                    # Add a number above each ball
-                    number_pos = ball_pos.copy()
-                    number_pos[2] += 0.05  # Slightly above the ball
-                    
                     # Check if this is the current ball
-                    is_current = (idx == current_ball_index)
+                    is_current = (idx == self.current_ball_index)
                     
                     # Check if this ball has been counted
                     is_counted = idx in self.counted_balls
@@ -606,53 +645,32 @@ class ImprovedBallPointingTest:
                             g.rgba[:] = [1, 1, 1, 0.5]
                 
                 # Add visualization for pointing line (from finger to ball)
-                if current_ball_index < len(self.ball_geoms):
-                    ball_id = self.ball_geoms[current_ball_index]
+                if self.current_ball_index < len(self.ball_geoms):
+                    ball_id = self.ball_geoms[self.current_ball_index]
                     ball_pos = self.model.geom(ball_id).pos.copy()
                     
                     # Get right finger position (index finger approximation)
                     finger_pos = self.data.xpos[self.right_finger_body_id].copy()
                     
+                    # Draw point at hand location
+                    g = scene.geoms[scene.ngeom]
+                    scene.ngeom += 1
+                    g.type = mujoco.mjtGeom.mjGEOM_SPHERE
+                    g.size[:] = [0.01, 0, 0]  # Small sphere
+                    g.pos[:] = finger_pos
+                    g.rgba[:] = [1, 0, 0, 1]  # Red
+
+                    # Draw point at ball location
                     if scene.ngeom + 1 <= scene.maxgeom:
-                        # Draw point at hand location
                         g = scene.geoms[scene.ngeom]
                         scene.ngeom += 1
                         g.type = mujoco.mjtGeom.mjGEOM_SPHERE
                         g.size[:] = [0.01, 0, 0]  # Small sphere
-                        g.pos[:] = finger_pos
+                        g.pos[:] = ball_pos
                         g.rgba[:] = [1, 0, 0, 1]  # Red
-
-                        # Draw point at ball location
-                        if scene.ngeom + 1 <= scene.maxgeom:
-                            g = scene.geoms[scene.ngeom]
-                            scene.ngeom += 1
-                            g.type = mujoco.mjtGeom.mjGEOM_SPHERE
-                            g.size[:] = [0.01, 0, 0]  # Small sphere
-                            g.pos[:] = ball_pos
-                            g.rgba[:] = [1, 0, 0, 1]  # Red
                 
-                # Render scene
-                mujoco.mjr_render(viewport, scene, context)
-                
-                # Add status text
-                if motion_phase == "moving":
-                    if frame < interpolation_steps:
-                        progress_text = f"Counting: Ball {current_ball_index+1}/{len(self.ball_geoms)} - Moving: {(frame/interpolation_steps)*100:.1f}%"
-                    else:
-                        progress_text = f"Counting: Ball {current_ball_index+1}/{len(self.ball_geoms)} - Arrived"
-                else:  # paused
-                    countdown = pause_until - current_time
-                    progress_text = f"Counting: Ball {current_ball_index+1}/{len(self.ball_geoms)} - Counting: {countdown:.1f}s"
-                
-                mujoco.mjr_overlay(mujoco.mjtFontScale.mjFONTSCALE_150, 
-                                 mujoco.mjtGridPos.mjGRID_TOPLEFT, 
-                                 viewport, progress_text, "", context)
-                
-                # Count status display
-                count_text = f"Counted: {len(self.counted_balls)}/{len(self.ball_geoms)} balls"
-                mujoco.mjr_overlay(mujoco.mjtFontScale.mjFONTSCALE_150, 
-                                 mujoco.mjtGridPos.mjGRID_BOTTOMLEFT, 
-                                 viewport, count_text, "", context)
+                # Render scene with camera PIP
+                self.render_scene_with_camera_view(scene, context, viewport_width, viewport_height)
                 
                 # Swap buffers and poll events
                 glfw.swap_buffers(self.window)
@@ -692,7 +710,7 @@ def main():
         ball_height=0.05,
         # Place balls in a wider area in a row for left-to-right counting
         min_x=-0.1, max_x=0.1,  # Wide area from left to right
-        min_y=-0.5, max_y=-0.1  # In front of robot, at a good distance
+        min_y=-0.1, max_y=0.00  # In front of robot, at a good distance
     )
     
     print(f"Created model with {num_balls_added} balls at {output_path}")

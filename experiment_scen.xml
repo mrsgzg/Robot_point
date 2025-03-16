@@ -158,10 +158,7 @@
       <geom name="leg2" class="table" size="0.025 0.025 0.4" pos="-0.95 0.95 -0.4"/>
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
-      
       <!-- Balls removed from here -->
-      
-      <!-- 摄像头位于机械臂正上方 -->
       <body name="camera_body" pos="0 -0.9 1.5">
         <!-- 添加质量和惯性 -->
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
