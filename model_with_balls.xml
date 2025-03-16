@@ -159,14 +159,14 @@
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
       <!-- Balls removed from here -->
-      <geom name="ball1" type="sphere" material="ball_mat_white" pos="0.0214523207160231 -0.08241248473534948 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball2" type="sphere" material="ball_mat_white" pos="-0.03470419796704498 -0.10696804274405813 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball3" type="sphere" material="ball_mat_white" pos="0.04516896888483715 -0.14661846186910488 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.057559829074470194 -0.12815823218646602 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball5" type="sphere" material="ball_mat_white" pos="-0.023046204678249915 -0.05776845403849919 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball6" type="sphere" material="ball_mat_white" pos="-0.09907393497961668 -0.1399924557751133 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball7" type="sphere" material="ball_mat_white" pos="0.009477288253634364 -0.10972205840101601 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball8" type="sphere" material="ball_mat_white" pos="0.0868792792656575 -0.0648237914304367 0.05" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball1" type="sphere" material="ball_mat_white" pos="-0.08182152587422115 -0.10174198157208583 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball2" type="sphere" material="ball_mat_white" pos="0.06684310257382284 -0.11052107935985533 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball3" type="sphere" material="ball_mat_white" pos="-0.03199590809626991 -0.07731416043207733 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball4" type="sphere" material="ball_mat_white" pos="0.07187640351661465 -0.07398716543559859 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball5" type="sphere" material="ball_mat_white" pos="0.09727151592016603 -0.05436869841305714 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball6" type="sphere" material="ball_mat_white" pos="0.09587354839033177 -0.13323489106093742 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball7" type="sphere" material="ball_mat_white" pos="-0.030068979911743385 -0.11055251859883491 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball8" type="sphere" material="ball_mat_white" pos="-0.05442346164614973 -0.05565115148185504 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
             <body name="camera_body" pos="0 -0.7 1">
         <!-- 添加质量和惯性 -->
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>

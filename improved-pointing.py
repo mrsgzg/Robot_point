@@ -375,7 +375,7 @@ class ImprovedBallPointingTest:
         ik_data.qpos[joint7_idx] = angle_yz
 
         joint6_idx = self.joint_indices[5]
-        ik_data.qpos[joint6_idx] = ik_data.qpos[joint6_idx] +0.35
+        ik_data.qpos[joint6_idx] = ik_data.qpos[joint6_idx] +0.38
 
         #print(angle_yz)
         
@@ -686,14 +686,16 @@ def main():
     # Generate a scene with balls in well-positioned locations
     xml_path = 'experiment_scen.xml'
     output_path = "model_with_balls.xml"
-    
+    ball_size = 0.01  # Smaller ball size
+    table_surface_z = 0.025  # Height of table surface
+    ball_height = table_surface_z + ball_size
     # Generate the XML with multiple balls in reachable positions
     output_path, num_balls_added = generate_balls_module.generate_balls_xml(
         xml_path=xml_path,
         output_path=output_path, 
         num_balls=8,  # Number of balls to count
-        ball_size=0.01, 
-        ball_height=0.05,
+        ball_size=ball_size, 
+        ball_height=ball_height,
         # Place balls in a wider area in a row for left-to-right counting
         min_x=-0.1, max_x=0.1,  # Wide area from left to right
         min_y=-0.15, max_y=-0.05  # In front of robot, at a good distance
