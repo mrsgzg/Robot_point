@@ -75,9 +75,9 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
     # Find the comment that indicates where the balls were removed
     balls_comment = "<!-- Balls removed from here -->"
     insert_index = xml_content.find(balls_comment)
-    
+
     if insert_index == -1:
-        # Fallback: Find the table section and the camera body to locate where to insert balls
+        # Fallback logic (unchanged)
         table_body_start = xml_content.find('<body name="table"')
         leg4_end = xml_content.find('</geom>', xml_content.find('name="leg4"'))
         camera_body_start = xml_content.find('<body name="camera_body"', table_body_start)
@@ -87,8 +87,8 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
         
         insert_index = xml_content.find('>', leg4_end) + 1
     else:
-        # Position right after the comment
-        insert_index += len(balls_comment)
+        # Position right after the comment AND the line ending
+        insert_index = xml_content.find('\n', insert_index) + 1
     
     # Generate random positions
     positions = generate_random_positions(num_balls, ball_size, min_x, max_x, min_y, max_y, min_distance)

@@ -158,20 +158,17 @@
       <geom name="leg2" class="table" size="0.025 0.025 0.4" pos="-0.95 0.95 -0.4"/>
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
-      
       <!-- Balls removed from here -->
-      <geom name="ball1" type="sphere" material="ball_mat_white" pos="0.06857794658200742 -0.2962183597294499 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball2" type="sphere" material="ball_mat_white" pos="0.006716762890940184 -0.4637690144986408 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball3" type="sphere" material="ball_mat_white" pos="0.09210202591940114 -0.2024501323053301 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.031638100290056134 -0.355324519152886 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball5" type="sphere" material="ball_mat_white" pos="0.06728661722969617 -0.2481131781408339 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball6" type="sphere" material="ball_mat_white" pos="0.08301603078139938 -0.41120272523226087 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball7" type="sphere" material="ball_mat_white" pos="-0.07033092896107247 -0.3226363771249695 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball8" type="sphere" material="ball_mat_white" pos="0.01469247345161026 -0.13142532751889924 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      
-      
-      <!-- 摄像头位于机械臂正上方 -->
-      <body name="camera_body" pos="0 -0.9 1.5">
+
+      <geom name="ball1" type="sphere" material="ball_mat_white" pos="-0.08404410145833999 -0.2808504566125146 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball2" type="sphere" material="ball_mat_white" pos="0.05234700495965819 -0.10991434535677991 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball3" type="sphere" material="ball_mat_white" pos="0.06354369643987193 -0.40860322498785784 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.04086466187631191 -0.21934236219929265 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball5" type="sphere" material="ball_mat_white" pos="-0.0016968391406725764 -0.4793227016811766 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball6" type="sphere" material="ball_mat_white" pos="-0.058313345629056816 -0.486551170429511 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball7" type="sphere" material="ball_mat_white" pos="-0.0468235897468488 -0.16718660342591724 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball8" type="sphere" material="ball_mat_white" pos="-0.02119678934535825 -0.3640931917545586 0.05" size="0.02" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+            <body name="camera_body" pos="0 -0.9 1.5">
         <!-- 添加质量和惯性 -->
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
         <!-- 添加垂直轴旋转关节 -->
