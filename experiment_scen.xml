@@ -159,7 +159,7 @@
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
       <!-- Balls removed from here -->
-      <body name="camera_body" pos="0 -0.9 1.5">
+      <body name="camera_body" pos="0 -0.7 1">
         <!-- 添加质量和惯性 -->
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
         <!-- 添加垂直轴旋转关节 -->

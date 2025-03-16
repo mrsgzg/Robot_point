@@ -75,9 +75,9 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
     # Find the comment that indicates where the balls were removed
     balls_comment = "<!-- Balls removed from here -->"
     insert_index = xml_content.find(balls_comment)
-    
+
     if insert_index == -1:
-        # Fallback: Find the table section and the camera body to locate where to insert balls
+        # Fallback logic (unchanged)
         table_body_start = xml_content.find('<body name="table"')
         leg4_end = xml_content.find('</geom>', xml_content.find('name="leg4"'))
         camera_body_start = xml_content.find('<body name="camera_body"', table_body_start)
@@ -85,24 +85,10 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
         if leg4_end == -1 or camera_body_start == -1:
             raise ValueError("Could not find proper insertion point for balls")
         
-        # Find the position after leg4's closing tag but before camera_body's opening tag
         insert_index = xml_content.find('>', leg4_end) + 1
-        
-        # Add the marker comment for future reference
-        indentation = "      "  # Maintain proper indentation
-        marker_xml = f"\n{indentation}{balls_comment}"
-        xml_content = xml_content[:insert_index] + marker_xml + xml_content[insert_index:]
-        
-        # Update insert_index to be after the newly added comment
-        insert_index += len(marker_xml)
     else:
-        # Position right after the comment to the beginning of the next line
-        next_line_index = xml_content.find('\n', insert_index)
-        if next_line_index != -1:
-            insert_index = next_line_index + 1
-        else:
-            # If no newline found, just position after the comment
-            insert_index += len(balls_comment)
+        # Position right after the comment AND the line ending
+        insert_index = xml_content.find('\n', insert_index) + 1
     
     # Generate random positions
     positions = generate_random_positions(num_balls, ball_size, min_x, max_x, min_y, max_y, min_distance)
@@ -119,23 +105,12 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
         ball_elements.append(ball_element)
     
     # Insert balls at the identified position
-    # Important: We need to maintain the proper indentation and structure
-    balls_xml = '\n'.join(ball_elements)
-    
-    # Split the content at the insertion point
-    pre_insert = xml_content[:insert_index]
-    post_insert = xml_content[insert_index:]
-    
-    # Combine with the new balls content
-    new_xml_content = pre_insert + balls_xml + "\n      " + post_insert
+    balls_xml = '\n' + '\n'.join(ball_elements) + '\n      '
+    new_xml_content = xml_content[:insert_index] + balls_xml + xml_content[insert_index:]
     
     # Write the modified XML to a new file
     with open(output_path, 'w') as f:
         f.write(new_xml_content)
-    
-    # Verify that the camera is still in the XML
-    if "table_cam" not in new_xml_content:
-        print("WARNING: Camera definition may have been lost in the generated file!")
     
     return output_path, len(positions)
 
