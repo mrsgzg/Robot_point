@@ -47,7 +47,7 @@ def generate_random_positions(num_positions, ball_radius, min_x, max_x, min_y, m
     return positions
 
 def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=10, 
-                       ball_size=0.03, ball_height=0.05, 
+                       ball_size=0.03, ball_height=None, 
                        min_x=-0.5, max_x=0.5, min_y=-0.5, max_y=0.3):
     """Add white balls by modifying the XML and saving to a new file
     
@@ -109,6 +109,14 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
     
     # Prepare the ball XML elements
     ball_elements = []
+    
+    # If ball_height is not explicitly provided, calculate it to place balls on the table surface
+    # The tabletop is at z=0 with height of 0.025, and balls should rest on top
+    if ball_height is None:
+        # Ball center should be at tabletop surface (z=0.025) + ball radius
+        table_surface_z = 0.025  # Height of table surface from coordinate origin
+        ball_height = table_surface_z + ball_size  # Ball center is radius away from surface
+    
     for i, (pos_x, pos_y) in enumerate(positions):
         # Use white color for all balls (1,1,1,1)
         color_str = "1 1 1 1"
@@ -148,7 +156,7 @@ if __name__ == "__main__":
     parser.add_argument('--output', '-o', default='model_with_balls.xml', help='Path to save the modified XML file')
     parser.add_argument('--num-balls', '-n', type=int, default=9, help='Number of balls to generate')
     parser.add_argument('--ball-size', '-s', type=float, default=0.03, help='Radius of each ball in meters')
-    parser.add_argument('--ball-height', '-z', type=float, default=0.05, help='Height of balls above table')
+    parser.add_argument('--ball-height', '-z', type=float, default=None, help='Height of ball centers (if None, balls will rest on table surface)')
     parser.add_argument('--min-x', type=float, default=-0.4, help='Minimum x coordinate')
     parser.add_argument('--max-x', type=float, default=0.4, help='Maximum x coordinate')
     parser.add_argument('--min-y', type=float, default=-0.5, help='Minimum y coordinate')
