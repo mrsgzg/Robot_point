@@ -312,8 +312,9 @@ class RobotController:
         
         # Calculate the angle in the vertical plane (tilt)
         # Negative because tilting down is positive in most camera setups
-        tilt_angle = -np.arctan2(camera_to_ball[2], horizontal_distance) * 0.9
+        tilt_angle = -np.arctan2(camera_to_ball[2], horizontal_distance)
         
+        print(f'***pan_angle{pan_angle},tilt_angle{tilt_angle}***')
         return pan_angle, tilt_angle
         
     def smooth_interpolation(self, t):

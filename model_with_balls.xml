@@ -159,11 +159,11 @@
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
       <!-- Balls removed from here -->
-      <geom name="ball1" type="sphere" material="ball_mat_white" pos="-0.08005923161291861 -0.07267229764206967 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball2" type="sphere" material="ball_mat_white" pos="0.032500124349042425 -0.07712763041572035 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball3" type="sphere" material="ball_mat_white" pos="-0.016118896226510124 -0.1350625710122474 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.05316358872938656 -0.0683645816893981 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball5" type="sphere" material="ball_mat_white" pos="-0.09581852152090552 -0.0951678083045869 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball1" type="sphere" material="ball_mat_white" pos="0.001779925373118843 -0.08476407224799705 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball2" type="sphere" material="ball_mat_white" pos="0.05201499875728166 -0.14114528636310217 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball3" type="sphere" material="ball_mat_white" pos="0.011704577234526184 -0.05517619475292364 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.03695202529317443 -0.10127960523603972 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball5" type="sphere" material="ball_mat_white" pos="-0.07987281090626029 -0.11591596165617415 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
             <body name="camera_body" pos="0 -0.3 0.3">
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
         <!-- Pan joint (horizontal rotation) -->
@@ -359,6 +359,6 @@
   </actuator>
 
   <keyframe>
-    <key name="home" qpos="0 0 0 -1.57079 0 1.57079 -0.7853 0.04 0.04 0 0" ctrl="0 0 0 -1.57079 0 1.57079 -0.7853 255 0 0"/>
+    <key name="home" qpos="0 0 0 -1.57079 0 1.57079 -0.7853 0.04 0.04 0 0.73" ctrl="0 0 0 -1.57079 0 1.57079 -0.7853 255 0 0.73"/>
   </keyframe>
 </mujoco>

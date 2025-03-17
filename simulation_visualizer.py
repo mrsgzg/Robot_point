@@ -24,6 +24,9 @@ class SimulationVisualizer:
                 print(f"Using fixed camera: {cam_name} (id: {i})")
                 break
                 
+            
+
+
         if self.camera.fixedcamid == -1:
             print("Warning: table_cam not found, using free camera")
             self.camera.type = mujoco.mjtCamera.mjCAMERA_FREE
