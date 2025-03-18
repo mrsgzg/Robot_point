@@ -8,7 +8,7 @@
     <global offwidth="640" offheight="640"/>
     <scale contactwidth="0.05" contactheight="0.05"/>
     <!-- 添加摄像头视野设置 -->
-    <quality shadowsize="4096"/>
+    <quality shadowsize="0"/>
     <map force="0.1"/>
   </visual>
   
@@ -159,21 +159,11 @@
       <geom name="leg3" class="table" size="0.025 0.025 0.4" pos="0.95 -0.95 -0.4"/>
       <geom name="leg4" class="table" size="0.025 0.025 0.4" pos="-0.95 -0.95 -0.4"/>
       <!-- Balls removed from here -->
-      <geom name="ball1" type="sphere" material="ball_mat_white" pos="0.09828464885691549 -0.11310652715048478 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball2" type="sphere" material="ball_mat_white" pos="0.07469231976763502 -0.06045279014293607 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball3" type="sphere" material="ball_mat_white" pos="0.04704091678528882 -0.13736615465251548 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.06702724619192824 -0.1395707346003352 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball5" type="sphere" material="ball_mat_white" pos="0.023428412992467423 -0.12156059898387803 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball6" type="sphere" material="ball_mat_white" pos="-0.041188054806796486 -0.12834836942906927 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball7" type="sphere" material="ball_mat_white" pos="0.0026291171943012975 -0.13106650972077377 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball8" type="sphere" material="ball_mat_white" pos="0.06118181429666611 -0.07880428469256073 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball9" type="sphere" material="ball_mat_white" pos="0.001760837906996729 -0.08414394783931793 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball10" type="sphere" material="ball_mat_white" pos="-0.05229370361526582 -0.0782587620866923 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball11" type="sphere" material="ball_mat_white" pos="-0.09871630890167103 -0.12920328321561955 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball12" type="sphere" material="ball_mat_white" pos="0.07350762356121351 -0.14038646557064882 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball13" type="sphere" material="ball_mat_white" pos="0.02585483164760305 -0.09359746832363373 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball14" type="sphere" material="ball_mat_white" pos="-0.0244160537455268 -0.07246956446693183 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
-      <geom name="ball15" type="sphere" material="ball_mat_white" pos="-0.01871424182155615 -0.11167987433739684 0.035" size="0.01" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball1" type="sphere" material="ball_mat_white" pos="0.006143822754012467 -0.15953814273344288 0.030000000000000002" size="0.005" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball2" type="sphere" material="ball_mat_white" pos="-0.017290255550750783 -0.16541603845807643 0.030000000000000002" size="0.005" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball3" type="sphere" material="ball_mat_white" pos="0.02295611223891294 -0.1939372424842806 0.030000000000000002" size="0.005" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball4" type="sphere" material="ball_mat_white" pos="-0.003119839751732363 -0.17535324279857714 0.030000000000000002" size="0.005" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
+      <geom name="ball5" type="sphere" material="ball_mat_white" pos="0.017903511438307554 -0.1795734030464715 0.030000000000000002" size="0.005" rgba="1 1 1 1" contype="1" conaffinity="1" solimp="0.9 0.95 0.001" solref="0.01 1"/>
             <body name="camera_body" pos="0 -0.3 0.3">
         <inertial mass="0.2" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
         <!-- Pan joint (horizontal rotation) -->
@@ -183,12 +173,12 @@
         <body name="camera_mount" pos="0 0 0">
             <inertial mass="0.1" pos="0 0 0" diaginertia="0.0005 0.0005 0.0005"/>
             <!-- Tilt joint (vertical rotation) -->
-            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-180 180" damping="1" ref="-0.7"/>
+            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-180 180" damping="1" ref="-0.5"/>
           
             <!-- Camera geometry and sensor -->
             <geom name="camera_body" type="box" size="0.04 0.025 0.025" material="camera_body_mat" contype="0" conaffinity="0" group="4"/>
             <geom name="camera_lens" type="cylinder" size="0.01 0.02" pos="0.07 0 -0.07" quat="0.7071 0 0 0.7071" material="camera_lens_mat" contype="0" conaffinity="0" group="4"/>
-            <camera name="table_cam" pos="0 0 0" fovy="60"/>
+            <camera name="table_cam" pos="0 0 0" fovy="25"/>
         </body>
       </body>
     </body>

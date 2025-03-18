@@ -1,0 +1,3537 @@
+[
+  {
+    "frame": 0,
+    "timestamp": 0.2235395908355713,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": 0.0,
+      "joint2": 0.3,
+      "joint3": 0.0,
+      "joint4": -0.5,
+      "joint5": 0.0,
+      "joint6": 0.0,
+      "joint7": 0.0,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 1,
+    "timestamp": 0.2540297508239746,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": 3.4310358492979286e-07,
+      "joint2": 0.300005840566046,
+      "joint3": -2.0681136166716963e-06,
+      "joint4": -0.5000082957149323,
+      "joint5": -6.68450758010231e-06,
+      "joint6": 0.0007048037611348286,
+      "joint7": -0.00020911720500503198,
+      "finger_joint1": 2.336956942330107e-05,
+      "finger_joint2": -2.33695694233011e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 2,
+    "timestamp": 0.2814192771911621,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": 2.3816414195015478e-07,
+      "joint2": 0.3000192686125446,
+      "joint3": -4.706150988849528e-06,
+      "joint4": -0.5000209762407262,
+      "joint5": -1.4705358326514493e-05,
+      "joint6": 0.002051869350916248,
+      "joint7": -0.0005968088124762272,
+      "finger_joint1": 4.7817604948161246e-05,
+      "finger_joint2": -4.781760494816134e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 3,
+    "timestamp": 0.3066577911376953,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -2.4506490062774706e-07,
+      "joint2": 0.3000397953670791,
+      "joint3": -7.648061295865043e-06,
+      "joint4": -0.5000372238803527,
+      "joint5": -2.3069843438092953e-05,
+      "joint6": 0.004008676866662477,
+      "joint7": -0.0011579015265342522,
+      "finger_joint1": 6.809375662971675e-05,
+      "finger_joint2": -6.809375662971692e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 4,
+    "timestamp": 0.3318808078765869,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -9.8002093586637e-07,
+      "joint2": 0.3000669396038491,
+      "joint3": -1.0751148320315542e-05,
+      "joint4": -0.5000566595011068,
+      "joint5": -3.14695240083129e-05,
+      "joint6": 0.006541938342687315,
+      "joint7": -0.0018864978703509825,
+      "finger_joint1": 8.331171345745699e-05,
+      "finger_joint2": -8.331171345745723e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 5,
+    "timestamp": 0.35718464851379395,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.8652035792712573e-06,
+      "joint2": 0.30010032009963156,
+      "joint3": -1.3924258868739974e-05,
+      "joint4": -0.5000790524213478,
+      "joint5": -3.978338029012552e-05,
+      "joint6": 0.009617755721727603,
+      "joint7": -0.0027760346096821916,
+      "finger_joint1": 9.391365154265485e-05,
+      "finger_joint2": -9.391365154265518e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 6,
+    "timestamp": 0.3838369846343994,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -2.8294730858669554e-06,
+      "joint2": 0.30013965123416386,
+      "joint3": -1.7106429247053932e-05,
+      "joint4": -0.5001042441630504,
+      "joint5": -4.794888688003523e-05,
+      "joint6": 0.013201758770758187,
+      "joint7": -0.003819334160942045,
+      "finger_joint1": 0.00010065119790919994,
+      "finger_joint2": -0.00010065119790920036
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 7,
+    "timestamp": 0.4086587429046631,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -3.827685358463586e-06,
+      "joint2": 0.3001848957644153,
+      "joint3": -2.0270814908595587e-05,
+      "joint4": -0.5001321183750255,
+      "joint5": -5.5970365050266004e-05,
+      "joint6": 0.017252657509101745,
+      "joint7": -0.005014645930541632,
+      "finger_joint1": 0.00010405302977711494,
+      "finger_joint2": -0.00010405302977711547
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 8,
+    "timestamp": 0.43370985984802246,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -4.829864894988117e-06,
+      "joint2": 0.3002358314220962,
+      "joint3": -2.3380737506827496e-05,
+      "joint4": -0.5001626364957541,
+      "joint5": -6.378733073372393e-05,
+      "joint6": 0.0217358198702985,
+      "joint7": -0.00635337747855049,
+      "finger_joint1": 0.00010494132031004701,
+      "finger_joint2": -0.00010494132031004765
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 9,
+    "timestamp": 0.4585847854614258,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -5.812798072372386e-06,
+      "joint2": 0.30029230045841854,
+      "joint3": -2.641344759379634e-05,
+      "joint4": -0.5001957303033008,
+      "joint5": -7.137164505909745e-05,
+      "joint6": 0.02661656564922964,
+      "joint7": -0.007826486174589376,
+      "finger_joint1": 0.00010389205087808616,
+      "finger_joint2": -0.00010389205087808691
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 10,
+    "timestamp": 0.4840240478515625,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -6.759991960251395e-06,
+      "joint2": 0.3003541766281155,
+      "joint3": -2.935347841114892e-05,
+      "joint4": -0.5002313347110255,
+      "joint5": -7.870639153344285e-05,
+      "joint6": 0.031860285907274126,
+      "joint7": -0.009424542028957579,
+      "finger_joint1": 0.00010133573908908405,
+      "finger_joint2": -0.00010133573908908493
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 11,
+    "timestamp": 0.5092813968658447,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -7.659793237860872e-06,
+      "joint2": 0.3004213496415776,
+      "joint3": -3.218998994716142e-05,
+      "joint4": -0.5002693899679572,
+      "joint5": -8.578037779703145e-05,
+      "joint6": 0.037432561902460665,
+      "joint7": -0.011137791635867363,
+      "finger_joint1": 9.76055139694681e-05,
+      "finger_joint2": -9.760551396946909e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 12,
+    "timestamp": 0.5349259376525879,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -8.503848446876447e-06,
+      "joint2": 0.3004937153289464,
+      "joint3": -3.491533413650207e-05,
+      "joint4": -0.5003098386126419,
+      "joint5": -9.258634901688044e-05,
+      "joint6": 0.04329928120568909,
+      "joint7": -0.012956223201682352,
+      "finger_joint1": 9.296393901009167e-05,
+      "finger_joint2": -9.296393901009277e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 13,
+    "timestamp": 0.5600128173828125,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -9.286059715806331e-06,
+      "joint2": 0.3005711686750355,
+      "joint3": -3.752417417321024e-05,
+      "joint4": -0.5003526222740237,
+      "joint5": -9.912017810064223e-05,
+      "joint6": 0.049426750060158786,
+      "joint7": -0.014869632086690152,
+      "finger_joint1": 8.762026876345155e-05,
+      "finger_joint2": -8.762026876345275e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 14,
+    "timestamp": 0.586057186126709,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.000190696136845e-05,
+      "joint2": 0.3006535988257369,
+      "joint3": -4.0012916411456786e-05,
+      "joint4": -0.5003976792104571,
+      "joint5": -0.00010538037348083171,
+      "joint6": 0.05578180133835835,
+      "joint7": -0.016867686157783866,
+      "finger_joint1": 8.174267533563913e-05,
+      "finger_joint2": -8.174267533564043e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 15,
+    "timestamp": 0.6107778549194336,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.0648012861031629e-05,
+      "joint2": 0.30074088562889534,
+      "joint3": -4.2379334293745824e-05,
+      "joint4": -0.5004449426296904,
+      "joint5": -0.00011136772415804212,
+      "joint6": 0.06233189752552495,
+      "joint7": -0.018939990224256794,
+      "finger_joint1": 7.546737525194426e-05,
+      "finger_joint2": -7.546737525194566e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 16,
+    "timestamp": 0.6369578838348389,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.121948986001033e-05,
+      "joint2": 0.3008329540183087,
+      "joint3": -4.460999731852684e-05,
+      "joint4": -0.5004943335950481,
+      "joint5": -0.00011705326632898251,
+      "joint6": 0.06904303594416335,
+      "joint7": -0.021074238803765064,
+      "finger_joint1": 6.883001158707802e-05,
+      "finger_joint2": -6.88300115870795e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 17,
+    "timestamp": 0.6626191139221191,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.1713019765509136e-05,
+      "joint2": 0.30092962933275236,
+      "joint3": -4.671560554587653e-05,
+      "joint4": -0.5005457915034093,
+      "joint5": -0.00012247384988007718,
+      "joint6": 0.07588460024386313,
+      "joint7": -0.023260699413018355,
+      "finger_joint1": 6.200105463028844e-05,
+      "finger_joint2": -6.200105463029002e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 18,
+    "timestamp": 0.6880724430084229,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.2129700905514458e-05,
+      "joint2": 0.301030738344864,
+      "joint3": -4.870018391090014e-05,
+      "joint4": -0.5005992289885641,
+      "joint5": -0.00012764336338559284,
+      "joint6": 0.0828268553333733,
+      "joint7": -0.02548969811056558,
+      "finger_joint1": 5.507682743438766e-05,
+      "finger_joint2": -5.507682743438931e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 19,
+    "timestamp": 0.7129299640655518,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.247075627378811e-05,
+      "joint2": 0.3011361004767815,
+      "joint3": -5.0566473546103775e-05,
+      "joint4": -0.5006545494943953,
+      "joint5": -0.00013257061487898132,
+      "joint6": 0.08984102447630883,
+      "joint7": -0.02775167479391337,
+      "finger_joint1": 4.812273638345589e-05,
+      "finger_joint2": -4.812273638345761e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 20,
+    "timestamp": 0.7380580902099609,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.2737085886277259e-05,
+      "joint2": 0.30124552611214955,
+      "joint3": -5.231700752043099e-05,
+      "joint4": -0.5007116512958137,
+      "joint5": -0.00013726387762565953,
+      "joint6": 0.09689936080760651,
+      "joint7": -0.03003723559089132,
+      "finger_joint1": 4.1189223240150834e-05,
+      "finger_joint2": -4.1189223240152616e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 21,
+    "timestamp": 0.7639966011047363,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.2929420994324259e-05,
+      "joint2": 0.3013588168257007,
+      "joint3": -5.395444348373595e-05,
+      "joint4": -0.5007704288059002,
+      "joint5": -0.0001417319868063848,
+      "joint6": 0.10397521201562841,
+      "joint7": -0.03233720157888518,
+      "finger_joint1": 3.431806849153546e-05,
+      "finger_joint2": -3.43180684915373e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 22,
+    "timestamp": 0.789381742477417,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.3051212518101603e-05,
+      "joint2": 0.301475696840942,
+      "joint3": -5.549531793843621e-05,
+      "joint4": -0.5008307854225221,
+      "joint5": -0.00014601890068196893,
+      "joint6": 0.11104589892122294,
+      "joint7": -0.03464462538660047,
+      "finger_joint1": 2.7643444329561916e-05,
+      "finger_joint2": -2.76434443295638e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 23,
+    "timestamp": 0.8150601387023926,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.3108297119761392e-05,
+      "joint2": 0.30159591434604605,
+      "joint3": -5.694741738400834e-05,
+      "joint4": -0.5008925981055815,
+      "joint5": -0.00015014179557275767,
+      "joint6": 0.11808979383622137,
+      "joint7": -0.03695274509200207,
+      "finger_joint1": 2.1294120415625506e-05,
+      "finger_joint2": -2.1106986853236693e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 24,
+    "timestamp": 0.8402049541473389,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.3104980303523138e-05,
+      "joint2": 0.30171923356825703,
+      "joint3": -5.831492851195241e-05,
+      "joint4": -0.5009557412229152,
+      "joint5": -0.00015410839260735455,
+      "joint6": 0.12508612803874125,
+      "joint7": -0.03925486137360391,
+      "finger_joint1": 1.5832575035147134e-05,
+      "finger_joint2": -1.4099489684761919e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 25,
+    "timestamp": 0.8657169342041016,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.3043772636986991e-05,
+      "joint2": 0.30184542863182395,
+      "joint3": -5.960057041926376e-05,
+      "joint4": -0.5010200934939303,
+      "joint5": -0.0001579242789662592,
+      "joint6": 0.1320150351569842,
+      "joint7": -0.041544378604963225,
+      "finger_joint1": 1.1715970914462444e-05,
+      "finger_joint2": -6.151568301129262e-06
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 26,
+    "timestamp": 0.8906257152557373,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.292611105274568e-05,
+      "joint2": 0.30197428134801674,
+      "joint3": -6.080650700307827e-05,
+      "joint4": -0.5010855389854179,
+      "joint5": -0.00016159500755092817,
+      "joint6": 0.1388575902518466,
+      "joint7": -0.0438148428984603,
+      "finger_joint1": 9.297996793901068e-06,
+      "finger_joint2": 3.087778488337951e-06
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 27,
+    "timestamp": 0.9156181812286377,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.2751160305456623e-05,
+      "joint2": 0.3021053552232032,
+      "joint3": -6.19300031738215e-05,
+      "joint4": -0.5011520167492824,
+      "joint5": -0.00016510985554691118,
+      "joint6": 0.14560551802442281,
+      "joint7": -0.04605564496389316,
+      "finger_joint1": 7.173161248146796e-06,
+      "finger_joint2": 1.1342771884160144e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 28,
+    "timestamp": 0.940518856048584,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.2517350097456881e-05,
+      "joint2": 0.3022382213794763,
+      "joint3": -6.296827854621975e-05,
+      "joint4": -0.5012194071587204,
+      "joint5": -0.000168463428595397,
+      "joint6": 0.15225534734400112,
+      "joint7": -0.048254776725378236,
+      "finger_joint1": 5.479225042939496e-06,
+      "finger_joint2": 1.8533610327801055e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 29,
+    "timestamp": 0.965848445892334,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.2222902380390692e-05,
+      "joint2": 0.3023725521081179,
+      "joint3": -6.392000441096297e-05,
+      "joint4": -0.5012875527740632,
+      "joint5": -0.00017165774187320658,
+      "joint6": 0.15880383626250028,
+      "joint7": -0.050400904125855156,
+      "finger_joint1": 4.177620048365051e-06,
+      "finger_joint2": 2.4752154902150636e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 30,
+    "timestamp": 0.9909267425537109,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.1866459789916398e-05,
+      "joint2": 0.30250808138458785,
+      "joint3": -6.478493915737765e-05,
+      "joint4": -0.5013563110344911,
+      "joint5": -0.00017469695551189848,
+      "joint6": 0.16524796640675585,
+      "joint7": -0.05248336028180398,
+      "finger_joint1": 3.1885211285636437e-06,
+      "finger_joint2": 3.012722930332168e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 31,
+    "timestamp": 1.0158805847167969,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "looking",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.1447327051447684e-05,
+      "joint2": 0.3026445887148044,
+      "joint3": -6.556419124334597e-05,
+      "joint4": -0.5014255612919722,
+      "joint5": -0.00017758765062328037,
+      "joint6": 0.171584950389455,
+      "joint7": -0.05449223047083186,
+      "finger_joint1": 2.4342960123463205e-06,
+      "finger_joint2": 3.478151230689927e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 32,
+    "timestamp": 1.0414166450500488,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": -1.096615028939284e-05,
+      "joint2": 0.3027818871735512,
+      "joint3": -6.626244077089671e-05,
+      "joint4": -0.5014952036760304,
+      "joint5": -0.00018034429897978047,
+      "joint6": 0.1778123409259367,
+      "joint7": -0.05641886237045415,
+      "finger_joint1": 1.8552246151759064e-06,
+      "finger_joint2": 3.8816133598866164e-05
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 33,
+    "timestamp": 1.070842981338501,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0,
+      "camera_tilt": -0.05,
+      "joint1": 0.0,
+      "joint2": 0.3,
+      "joint3": 0.0,
+      "joint4": -0.5,
+      "joint5": 0.0,
+      "joint6": 0.0,
+      "joint7": 0.0,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 34,
+    "timestamp": 1.0965731143951416,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 4.136742058116119e-05,
+      "camera_tilt": -0.05,
+      "joint1": 5.713786786115414e-06,
+      "joint2": 0.30020008949621807,
+      "joint3": 2.448452454939542e-06,
+      "joint4": -0.4999928370682458,
+      "joint5": 1.046028033294008e-06,
+      "joint6": 0.0002969977209334002,
+      "joint7": -0.0003258270173772592,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 35,
+    "timestamp": 1.1216154098510742,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.00016454527069154618,
+      "camera_tilt": -0.05,
+      "joint1": 2.2727464758179744e-05,
+      "joint2": 0.30079588671121377,
+      "joint3": 9.739095798418736e-06,
+      "joint4": -0.4999715083384973,
+      "joint5": 4.16073720505773e-06,
+      "joint6": 0.0011813540631540834,
+      "joint7": -0.0012960270188413885,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 36,
+    "timestamp": 1.1464219093322754,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.00036814693288150725,
+      "camera_tilt": -0.05,
+      "joint1": 5.084951033677015e-05,
+      "joint2": 0.30178068473449937,
+      "joint3": 2.1789858998428443e-05,
+      "joint4": -0.49993625390902563,
+      "joint5": 9.309065123113716e-06,
+      "joint6": 0.0026431137957927744,
+      "joint7": -0.002899678428390916,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 37,
+    "timestamp": 1.1711533069610596,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0006507857897013962,
+      "camera_tilt": -0.05,
+      "joint1": 8.988839994246371e-05,
+      "joint2": 0.3031477766555871,
+      "joint3": 3.85186710229595e-05,
+      "joint4": -0.49988731387810176,
+      "joint5": 1.6455949395284507e-05,
+      "joint6": 0.0046723216879801955,
+      "joint7": -0.0051258596700243676,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 38,
+    "timestamp": 1.1961133480072021,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0010110752237015655,
+      "camera_tilt": -0.05,
+      "joint1": 0.00013965260999583763,
+      "joint2": 0.30489045556398925,
+      "joint3": 5.984346084000277e-05,
+      "joint4": -0.4998249283439969,
+      "joint5": 2.5566327629392656e-05,
+      "joint6": 0.007259022508847072,
+      "joint7": -0.007963649167740273,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 39,
+    "timestamp": 1.2207269668579102,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0014476286174323675,
+      "camera_tilt": -0.05,
+      "joint1": 0.00019995061691746905,
+      "joint2": 0.307002014549218,
+      "joint3": 8.568215741754913e-05,
+      "joint4": -0.49974933740498206,
+      "joint5": 3.6605137433260714e-05,
+      "joint6": 0.01039326102752413,
+      "joint7": -0.011402125345537162,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 40,
+    "timestamp": 1.2455236911773682,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0019590593534441533,
+      "camera_tilt": -0.05,
+      "joint1": 0.000270590897127935,
+      "joint2": 0.3094757467007856,
+      "joint3": 0.00011595268972358936,
+      "joint4": -0.4996607811593283,
+      "joint5": 4.953731641471121e-05,
+      "joint6": 0.014065082013142086,
+      "joint7": -0.015430366627413554,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 41,
+    "timestamp": 1.2699670791625977,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.002543980814287276,
+      "camera_tilt": -0.05,
+      "joint1": 0.0003513819270478127,
+      "joint2": 0.3123049451082043,
+      "joint3": 0.0001505729867261144,
+      "joint4": -0.4995594997053069,
+      "joint5": 6.43278021815667e-05,
+      "joint6": 0.018264530234831673,
+      "joint7": -0.020037451437367983,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 42,
+    "timestamp": 1.2947585582733154,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0032010063825120877,
+      "camera_tilt": -0.05,
+      "joint1": 0.00044213218309767935,
+      "joint2": 0.3154829028609863,
+      "joint3": 0.00018946097739311508,
+      "joint4": -0.49944573314118873,
+      "joint5": 8.094153234164976e-05,
+      "joint6": 0.02298165046172361,
+      "joint7": -0.02521245819939898,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 43,
+    "timestamp": 1.3192145824432373,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.00392874944066894,
+      "camera_tilt": -0.05,
+      "joint1": 0.000542650141698112,
+      "joint2": 0.3190029130486439,
+      "joint3": 0.00023253459069258223,
+      "joint4": -0.499319721565245,
+      "joint5": 9.93434445027829e-05,
+      "joint6": 0.028206487462948623,
+      "joint7": -0.030944465337505066,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 44,
+    "timestamp": 1.3436691761016846,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.004725823371308185,
+      "camera_tilt": -0.05,
+      "joint1": 0.0006527442792696877,
+      "joint2": 0.3228582687606894,
+      "joint3": 0.0002797117555925066,
+      "joint4": -0.4991817050757468,
+      "joint5": 0.00011949847627278865,
+      "joint6": 0.03392908600763743,
+      "joint7": -0.03722255127568476,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 45,
+    "timestamp": 1.3682360649108887,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.005590841556980177,
+      "camera_tilt": -0.05,
+      "joint1": 0.000772223072232984,
+      "joint2": 0.327042263086635,
+      "joint3": 0.0003309104010608794,
+      "joint4": -0.4990319237709651,
+      "joint5": 0.00014137156525948966,
+      "joint6": 0.040139490864920774,
+      "joint7": -0.04403579443793663,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 46,
+    "timestamp": 1.3929107189178467,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.006522417380235265,
+      "camera_tilt": -0.05,
+      "joint1": 0.0009008949970085774,
+      "joint2": 0.3315481891159928,
+      "joint3": 0.00038604845606569107,
+      "joint4": -0.4988706177491712,
+      "joint5": 0.00016492764907070836,
+      "joint6": 0.04682774680392936,
+      "joint7": -0.051373273248259146,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 47,
+    "timestamp": 1.4175572395324707,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.007519164223623802,
+      "camera_tilt": -0.05,
+      "joint1": 0.0010385685300170451,
+      "joint2": 0.3363693399382753,
+      "joint3": 0.0004450438495749326,
+      "joint4": -0.498698027108636,
+      "joint5": 0.0001901316653142673,
+      "joint6": 0.0539838985937939,
+      "joint7": -0.059224066130650864,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 48,
+    "timestamp": 1.4427449703216553,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.008579695469696141,
+      "camera_tilt": -0.05,
+      "joint1": 0.0011850521476789652,
+      "joint2": 0.3414990086429945,
+      "joint3": 0.0005078145105565949,
+      "joint4": -0.49851439194763064,
+      "joint5": 0.0002169485515979891,
+      "joint6": 0.06159799100364516,
+      "joint7": -0.06757725150911033,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 49,
+    "timestamp": 1.4684803485870361,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.009702624501002633,
+      "camera_tilt": -0.05,
+      "joint1": 0.0013401543264149136,
+      "joint2": 0.3469304883196628,
+      "joint3": 0.0005742783679786689,
+      "joint4": -0.4983199523644263,
+      "joint5": 0.00024534324552969626,
+      "joint6": 0.06966006880261381,
+      "joint7": -0.07642190780763602,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 50,
+    "timestamp": 1.494035005569458,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.010886564700093632,
+      "camera_tilt": -0.05,
+      "joint1": 0.001503683542645468,
+      "joint2": 0.3526570720577924,
+      "joint3": 0.0006443533508091451,
+      "joint4": -0.4981149484572939,
+      "joint5": 0.00027528068471721135,
+      "joint6": 0.07816017675983063,
+      "joint7": -0.08574711345022652,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 51,
+    "timestamp": 1.5196218490600586,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.012130129449519491,
+      "camera_tilt": -0.05,
+      "joint1": 0.001675448272791206,
+      "joint2": 0.3586720529468955,
+      "joint3": 0.000717957388016015,
+      "joint4": -0.49789962032450474,
+      "joint5": 0.000306725806768357,
+      "joint6": 0.08708835964442632,
+      "joint7": -0.09554194686088034,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 52,
+    "timestamp": 1.5451297760009766,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.013431932131830556,
+      "camera_tilt": -0.05,
+      "joint1": 0.0018552569932727037,
+      "joint2": 0.3649687240764844,
+      "joint3": 0.0007950084085672688,
+      "joint4": -0.4976742080643297,
+      "joint5": 0.00033964354929095554,
+      "joint6": 0.09643466222553157,
+      "joint7": -0.10579548646359598,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 53,
+    "timestamp": 1.5714483261108398,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.014790586129577185,
+      "camera_tilt": -0.05,
+      "joint1": 0.002042918180510539,
+      "joint2": 0.37154037853607136,
+      "joint3": 0.0008754243414308976,
+      "joint4": -0.49743895177504005,
+      "joint5": 0.00037399884989282973,
+      "joint6": 0.10618912927227717,
+      "joint7": -0.116496810682372,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 54,
+    "timestamp": 1.5972075462341309,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.016204704825309727,
+      "camera_tilt": -0.05,
+      "joint1": 0.0022382403109252884,
+      "joint2": 0.37838030941516854,
+      "joint3": 0.0009591231155748923,
+      "joint4": -0.4971940915549068,
+      "joint5": 0.0004097566461818019,
+      "joint6": 0.11634180555379377,
+      "joint7": -0.1276349979412069,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 55,
+    "timestamp": 1.6227517127990723,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.017672901601578538,
+      "camera_tilt": -0.05,
+      "joint1": 0.0024410318609375302,
+      "joint2": 0.3854818098032882,
+      "joint3": 0.0010460226599672438,
+      "joint4": -0.496939867502201,
+      "joint5": 0.0004468818757656949,
+      "joint6": 0.12688273583921217,
+      "joint7": -0.13919912666409923,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 56,
+    "timestamp": 1.648517370223999,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.019193789840933975,
+      "camera_tilt": -0.05,
+      "joint1": 0.0026511013069678412,
+      "joint2": 0.3928381727899427,
+      "joint3": 0.0011360409035759433,
+      "joint4": -0.4966765197151938,
+      "joint5": 0.0004853394762523312,
+      "joint6": 0.13780196489766308,
+      "joint7": -0.15117827527504757,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 57,
+    "timestamp": 1.674349308013916,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.020765982925926376,
+      "camera_tilt": -0.05,
+      "joint1": 0.0028682571254367976,
+      "joint2": 0.4004426914646442,
+      "joint3": 0.0012290957753689808,
+      "joint4": -0.4964042882921562,
+      "joint5": 0.000525094385249533,
+      "joint6": 0.1490895374982772,
+      "joint7": -0.16356152219805034,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 58,
+    "timestamp": 1.7002661228179932,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.022388094239106097,
+      "camera_tilt": -0.05,
+      "joint1": 0.0030923077927649764,
+      "joint2": 0.4082886589169049,
+      "joint3": 0.0013251052043143472,
+      "joint4": -0.49612341333135945,
+      "joint5": 0.0005661115403651232,
+      "joint6": 0.16073549841018517,
+      "joint7": -0.17633794585710608,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 59,
+    "timestamp": 1.7259111404418945,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.024058737163023494,
+      "camera_tilt": -0.05,
+      "joint1": 0.003323061785372956,
+      "joint2": 0.41636936823623705,
+      "joint3": 0.0014239871193800341,
+      "joint4": -0.49583413493107453,
+      "joint5": 0.0006083558792069242,
+      "joint6": 0.17272989240251785,
+      "joint7": -0.18949662467621337,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 60,
+    "timestamp": 1.752429485321045,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.02577652508022892,
+      "camera_tilt": -0.05,
+      "joint1": 0.003560327579681313,
+      "joint2": 0.424678112512153,
+      "joint3": 0.001525659449534032,
+      "joint4": -0.49553669318957255,
+      "joint5": 0.0006517923393827587,
+      "joint6": 0.18506276424440593,
+      "joint7": -0.20302663707937074,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 61,
+    "timestamp": 1.7780873775482178,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.02754007137327272,
+      "camera_tilt": -0.05,
+      "joint1": 0.003803913652110624,
+      "joint2": 0.43320818483416484,
+      "joint3": 0.0016300401237443315,
+      "joint4": -0.49523132820512455,
+      "joint5": 0.0006963858585004489,
+      "joint6": 0.19772415870498009,
+      "joint7": -0.21691706149057666,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 62,
+    "timestamp": 1.8035945892333984,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.02934798942470526,
+      "camera_tilt": -0.05,
+      "joint1": 0.004053628479081467,
+      "joint2": 0.441952878291785,
+      "joint3": 0.001737047070978924,
+      "joint4": -0.49491828007600175,
+      "joint5": 0.0007421013741678178,
+      "joint6": 0.2107041205533711,
+      "joint7": -0.23115697633382973,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 63,
+    "timestamp": 1.828634262084961,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.031198892617076878,
+      "camera_tilt": -0.05,
+      "joint1": 0.004309280537014419,
+      "joint2": 0.4509054859745255,
+      "joint3": 0.0018465982202057999,
+      "joint4": -0.4945977889004751,
+      "joint5": 0.0007889038239926878,
+      "joint6": 0.22399269455870965,
+      "joint7": -0.24573546003312846,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 64,
+    "timestamp": 1.8540363311767578,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.033091394332937944,
+      "camera_tilt": -0.05,
+      "joint1": 0.004570678302330057,
+      "joint2": 0.4600593009718988,
+      "joint3": 0.0019586115003929505,
+      "joint4": -0.49427009477681577,
+      "joint5": 0.0008367581455828813,
+      "joint6": 0.23757992549012655,
+      "joint7": -0.26064159101247136,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 65,
+    "timestamp": 1.8791418075561523,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.035024107954838776,
+      "camera_tilt": -0.05,
+      "joint1": 0.004837630251448957,
+      "joint2": 0.469407616373417,
+      "joint3": 0.002073004840508366,
+      "joint4": -0.49393543780329485,
+      "joint5": 0.0008856292765462208,
+      "joint6": 0.2514558581167523,
+      "joint7": -0.2758644476958569,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 66,
+    "timestamp": 1.9045000076293945,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.03699564686532977,
+      "camera_tilt": -0.05,
+      "joint1": 0.005109944860791698,
+      "joint2": 0.4789437252685924,
+      "joint3": 0.002189696169520038,
+      "joint4": -0.4935940580781834,
+      "joint5": 0.0009354821544905293,
+      "joint6": 0.26561053720771793,
+      "joint7": -0.2913931085072838,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 67,
+    "timestamp": 1.9293761253356934,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.039004624446961234,
+      "camera_tilt": -0.05,
+      "joint1": 0.005387430606778855,
+      "joint2": 0.4886609207469371,
+      "joint3": 0.0023086034163959557,
+      "joint4": -0.4932461956997525,
+      "joint5": 0.0009862817170236285,
+      "joint6": 0.2800340075321539,
+      "joint7": -0.30721665187075026,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 68,
+    "timestamp": 1.9546096324920654,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.04104965408228356,
+      "camera_tilt": -0.05,
+      "joint1": 0.005669895965831008,
+      "joint2": 0.4985524958979637,
+      "joint3": 0.002429644510104113,
+      "joint4": -0.49289209076627327,
+      "joint5": 0.0010379929017533419,
+      "joint6": 0.29471631385919117,
+      "joint7": -0.3233241562102551,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 69,
+    "timestamp": 1.9793717861175537,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.043129349153847085,
+      "camera_tilt": -0.05,
+      "joint1": 0.005957149414368733,
+      "joint2": 0.5086117438111841,
+      "joint3": 0.002552737379612498,
+      "joint4": -0.4925319833760168,
+      "joint5": 0.0010905806462874917,
+      "joint6": 0.3096475009579603,
+      "joint7": -0.3397046999497968,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 70,
+    "timestamp": 2.004833698272705,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.04524232304420215,
+      "camera_tilt": -0.05,
+      "joint1": 0.006248999428812606,
+      "joint2": 0.5188319575761107,
+      "joint3": 0.002677799953889103,
+      "joint4": -0.49216611362725415,
+      "joint5": 0.0011440098882339001,
+      "joint6": 0.32481761359759204,
+      "joint7": -0.3563473615133738,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 71,
+    "timestamp": 2.0300955772399902,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0473871891358991,
+      "camera_tilt": -0.05,
+      "joint1": 0.0065452544855832025,
+      "joint2": 0.5292064302822556,
+      "joint3": 0.0028047501619019167,
+      "joint4": -0.49179472161825644,
+      "joint5": 0.0011982455652003897,
+      "joint6": 0.3402166965472169,
+      "joint7": -0.3732412193249845,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 72,
+    "timestamp": 2.05535626411438,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.04956256081148833,
+      "camera_tilt": -0.05,
+      "joint1": 0.006845723061101106,
+      "joint2": 0.5397284550191312,
+      "joint3": 0.0029335059326189338,
+      "joint4": -0.4914180474472948,
+      "joint5": 0.0012532526147947837,
+      "joint6": 0.3558347945759662,
+      "joint7": -0.39037535180862787,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 73,
+    "timestamp": 2.080801010131836,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.05176705145352015,
+      "camera_tilt": -0.05,
+      "joint1": 0.007150213631786887,
+      "joint2": 0.5503913248762498,
+      "joint3": 0.003063985195008142,
+      "joint4": -0.4910363312126402,
+      "joint5": 0.0013089959746249039,
+      "joint6": 0.37166195245297007,
+      "joint7": -0.40773883738830197,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 74,
+    "timestamp": 2.105983018875122,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.053999274444544935,
+      "camera_tilt": -0.05,
+      "joint1": 0.0074585346740611265,
+      "joint2": 0.5611883329431233,
+      "joint3": 0.0031961058780375336,
+      "joint4": -0.4906498130125638,
+      "joint5": 0.0013654405822985734,
+      "joint6": 0.38768821494735956,
+      "joint7": -0.42532075448800566,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 75,
+    "timestamp": 2.1313886642456055,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.05625784316711302,
+      "camera_tilt": -0.05,
+      "joint1": 0.007770494664344398,
+      "joint2": 0.5721127723092643,
+      "joint3": 0.003329785910675098,
+      "joint4": -0.49025873294533673,
+      "joint5": 0.0014225513754236143,
+      "joint6": 0.4039036268282652,
+      "joint7": -0.44311018153173715,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 76,
+    "timestamp": 2.1564078330993652,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.05854137100377479,
+      "camera_tilt": -0.05,
+      "joint1": 0.008085902079057286,
+      "joint2": 0.5831579360641851,
+      "joint3": 0.0034649432218888283,
+      "joint4": -0.48986333110923,
+      "joint5": 0.0014802932916078498,
+      "joint6": 0.420298232864818,
+      "joint7": -0.46109619694349535,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 77,
+    "timestamp": 2.1818103790283203,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.06084847133708054,
+      "camera_tilt": -0.05,
+      "joint1": 0.008404565394620356,
+      "joint2": 0.5943171172973976,
+      "joint3": 0.003601495740646713,
+      "joint4": -0.48946384760251477,
+      "joint5": 0.0015386312684591012,
+      "joint6": 0.4368620778261482,
+      "joint7": -0.47926787914727836,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 78,
+    "timestamp": 2.2069921493530273,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.06317775754958067,
+      "camera_tilt": -0.05,
+      "joint1": 0.008726293087454198,
+      "joint2": 0.6055836090984141,
+      "joint3": 0.0037393613959167448,
+      "joint4": -0.4890605225234621,
+      "joint5": 0.0015975302435851926,
+      "joint6": 0.45358520648138706,
+      "joint7": -0.4976143065670851,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 79,
+    "timestamp": 2.2324745655059814,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.06552784302382554,
+      "camera_tilt": -0.05,
+      "joint1": 0.009050893633979382,
+      "joint2": 0.6169507045567472,
+      "joint3": 0.0038784581166669144,
+      "joint4": -0.4886535959703431,
+      "joint5": 0.0016569551545939458,
+      "joint6": 0.47045766359966507,
+      "joint7": -0.516124557626914,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 80,
+    "timestamp": 2.2573354244232178,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.06789734114236544,
+      "camera_tilt": -0.05,
+      "joint1": 0.009378175510616482,
+      "joint2": 0.6284116967619087,
+      "joint3": 0.00401870383186521,
+      "joint4": -0.4882433080414288,
+      "joint5": 0.0017168709390931827,
+      "joint6": 0.4874694939501127,
+      "joint7": -0.5347877107507633,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 81,
+    "timestamp": 2.282686233520508,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.07028486528775081,
+      "camera_tilt": -0.05,
+      "joint1": 0.009707947193786084,
+      "joint2": 0.6399598788034111,
+      "joint3": 0.004160016470479627,
+      "joint4": -0.48782989883499034,
+      "joint5": 0.0017772425346907273,
+      "joint6": 0.5046107423018612,
+      "joint7": -0.5535928443626319,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 82,
+    "timestamp": 2.3075382709503174,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.07268902884253192,
+      "camera_tilt": -0.05,
+      "joint1": 0.010040017159908756,
+      "joint2": 0.6515885437707666,
+      "joint3": 0.004302313961478152,
+      "joint4": -0.48741360844929876,
+      "joint5": 0.0018380348789944006,
+      "joint6": 0.5218714534240408,
+      "joint7": -0.572529036886518,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 83,
+    "timestamp": 2.332740306854248,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.07510844518925916,
+      "camera_tilt": -0.05,
+      "joint1": 0.010374193885405083,
+      "joint2": 0.6632909847534874,
+      "joint3": 0.004445514233828778,
+      "joint4": -0.4869946769826253,
+      "joint5": 0.001899212909612026,
+      "joint6": 0.5392416720857826,
+      "joint7": -0.5915853667464204,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 84,
+    "timestamp": 2.3577089309692383,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.07754172771048284,
+      "camera_tilt": -0.05,
+      "joint1": 0.010710285846695632,
+      "joint2": 0.6750604948410857,
+      "joint3": 0.004589535216499493,
+      "joint4": -0.48657334453324086,
+      "joint5": 0.0019607415641514254,
+      "joint6": 0.5567114430562168,
+      "joint7": -0.6107509123663373,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 85,
+    "timestamp": 2.382807731628418,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.07998748978875343,
+      "camera_tilt": -0.05,
+      "joint1": 0.011048101520200996,
+      "joint2": 0.6868903671230739,
+      "joint3": 0.004734294838458295,
+      "joint4": -0.4861498511994166,
+      "joint5": 0.0020225857802204233,
+      "joint6": 0.574270811104475,
+      "joint7": -0.6300147521702678,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 86,
+    "timestamp": 2.4074995517730713,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.08244434480662116,
+      "camera_tilt": -0.05,
+      "joint1": 0.011387449382341739,
+      "joint2": 0.6987738946889641,
+      "joint3": 0.004879711028673168,
+      "joint4": -0.48572443707942364,
+      "joint5": 0.00208471049542684,
+      "joint6": 0.5919098209996871,
+      "joint7": -0.64936596458221,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 87,
+    "timestamp": 2.4321537017822266,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.08491090614663643,
+      "camera_tilt": -0.05,
+      "joint1": 0.011728137909538442,
+      "joint2": 0.7107043706282686,
+      "joint3": 0.005025701716112105,
+      "joint4": -0.48529734227153304,
+      "joint5": 0.002147080647378499,
+      "joint6": 0.6096185175109842,
+      "joint7": -0.6687936280261624,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 88,
+    "timestamp": 2.4566760063171387,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.08738578719134958,
+      "camera_tilt": -0.05,
+      "joint1": 0.01206997557821168,
+      "joint2": 0.7226750880304996,
+      "joint3": 0.005172184829743096,
+      "joint4": -0.4848688068740159,
+      "joint5": 0.0022096611736832222,
+      "joint6": 0.6273869454074968,
+      "joint7": -0.6882868209261236,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 89,
+    "timestamp": 2.4814162254333496,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.089867601323311,
+      "camera_tilt": -0.05,
+      "joint1": 0.012412770864782036,
+      "joint2": 0.7346793399851695,
+      "joint3": 0.0053190782985341346,
+      "joint4": -0.4844390709851433,
+      "joint5": 0.0022724170119488335,
+      "joint6": 0.645205149458356,
+      "joint7": -0.7078346217060923,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 90,
+    "timestamp": 2.5059728622436523,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.09235496192507099,
+      "camera_tilt": -0.05,
+      "joint1": 0.012756332245670084,
+      "joint2": 0.7467104195817904,
+      "joint3": 0.005466300051453209,
+      "joint4": -0.4840083747031864,
+      "joint5": 0.0023353130997831543,
+      "joint6": 0.6630631744326924,
+      "joint7": -0.727426108790067,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 91,
+    "timestamp": 2.530609369277954,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.0948464823791799,
+      "camera_tilt": -0.05,
+      "joint1": 0.013100468197296395,
+      "joint2": 0.7587616199098746,
+      "joint3": 0.0056137680174683105,
+      "joint4": -0.4835769581264162,
+      "joint5": 0.002398314374794007,
+      "joint6": 0.6809510650996363,
+      "joint7": -0.7470503606020458,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 92,
+    "timestamp": 2.555068254470825,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.09734077606818813,
+      "camera_tilt": -0.05,
+      "joint1": 0.013444987196081554,
+      "joint2": 0.7708262340589342,
+      "joint3": 0.00576140012554743,
+      "joint4": -0.4831450613531038,
+      "joint5": 0.0024613857745892148,
+      "joint6": 0.6988588662283189,
+      "joint7": -0.7666964555660276,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 93,
+    "timestamp": 2.5800373554229736,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.09983645637464601,
+      "camera_tilt": -0.05,
+      "joint1": 0.01378969771844614,
+      "joint2": 0.7828975551184816,
+      "joint3": 0.00590911430465856,
+      "joint4": -0.48271292448152037,
+      "joint5": 0.0025244922367766006,
+      "joint6": 0.7167766225878709,
+      "joint7": -0.786353472106011,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 94,
+    "timestamp": 2.6045925617218018,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.10233213668110389,
+      "camera_tilt": -0.05,
+      "joint1": 0.014134408240810723,
+      "joint2": 0.794968876178029,
+      "joint3": 0.006056828483769689,
+      "joint4": -0.48228078760993687,
+      "joint5": 0.002587598698963986,
+      "joint6": 0.7346943789474228,
+      "joint7": -0.8060104886459944,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 95,
+    "timestamp": 2.6293179988861084,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.10482643037011213,
+      "camera_tilt": -0.05,
+      "joint1": 0.014478927239595884,
+      "joint2": 0.8070334903270888,
+      "joint3": 0.00620446059184881,
+      "joint4": -0.48184889083662447,
+      "joint5": 0.0026506700987591943,
+      "joint6": 0.7526021800761055,
+      "joint7": -0.8256565836099764,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 96,
+    "timestamp": 2.6539578437805176,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.10731795082422103,
+      "camera_tilt": -0.05,
+      "joint1": 0.014823063191222195,
+      "joint2": 0.8190846906551728,
+      "joint3": 0.00635192855786391,
+      "joint4": -0.48141747425985426,
+      "joint5": 0.002713671373770047,
+      "joint6": 0.7704900707430494,
+      "joint7": -0.8452808354219551,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 97,
+    "timestamp": 2.678715705871582,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.10980531142598103,
+      "camera_tilt": -0.05,
+      "joint1": 0.015166624572110243,
+      "joint2": 0.8311157702517937,
+      "joint3": 0.006499150310782985,
+      "joint4": -0.48098677797789735,
+      "joint5": 0.0027765674616043678,
+      "joint6": 0.7883480957173857,
+      "joint7": -0.8648723225059297,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 98,
+    "timestamp": 2.7033166885375977,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.11228712555794243,
+      "camera_tilt": -0.05,
+      "joint1": 0.015509419858680597,
+      "joint2": 0.8431200222064636,
+      "joint3": 0.0066460437795740224,
+      "joint4": -0.4805570420890248,
+      "joint5": 0.0028393232998699786,
+      "joint6": 0.8061662997682448,
+      "joint7": -0.8844201232858984,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 99,
+    "timestamp": 2.7278058528900146,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.1147620066026556,
+      "camera_tilt": -0.05,
+      "joint1": 0.015851257527353838,
+      "joint2": 0.8550907396086946,
+      "joint3": 0.006792526893205015,
+      "joint4": -0.48012850669150764,
+      "joint5": 0.002901903826174703,
+      "joint6": 0.8239347276647577,
+      "joint7": -0.9039133161858598,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "frame": 100,
+    "timestamp": 2.752437114715576,
+    "current_ball_index": 0,
+    "counted_balls": [],
+    "count": 0,
+    "motion_phase": "moving",
+    "joint_positions": {
+      "camera_pan": 0.11722856794267085,
+      "camera_tilt": -0.05,
+      "joint1": 0.016191946054550536,
+      "joint2": 0.867021215547999,
+      "joint3": 0.00693851758064395,
+      "joint4": -0.47970141188361703,
+      "joint5": 0.002964273978126361,
+      "joint6": 0.8416434241760545,
+      "joint7": -0.923340979629812,
+      "finger_joint1": 0.0,
+      "finger_joint2": 0.0
+    },
+    "ball_positions": {},
+    "camera": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

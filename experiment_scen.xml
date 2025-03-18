@@ -8,7 +8,7 @@
     <global offwidth="640" offheight="640"/>
     <scale contactwidth="0.05" contactheight="0.05"/>
     <!-- 添加摄像头视野设置 -->
-    <quality shadowsize="4096"/>
+    <quality shadowsize="0"/>
     <map force="0.1"/>
   </visual>
   
@@ -168,12 +168,12 @@
         <body name="camera_mount" pos="0 0 0">
             <inertial mass="0.1" pos="0 0 0" diaginertia="0.0005 0.0005 0.0005"/>
             <!-- Tilt joint (vertical rotation) -->
-            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-180 180" damping="1" ref="-0.7"/>
+            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-180 180" damping="1" ref="-0.5"/>
           
             <!-- Camera geometry and sensor -->
             <geom name="camera_body" type="box" size="0.04 0.025 0.025" material="camera_body_mat" contype="0" conaffinity="0" group="4"/>
             <geom name="camera_lens" type="cylinder" size="0.01 0.02" pos="0.07 0 -0.07" quat="0.7071 0 0 0.7071" material="camera_lens_mat" contype="0" conaffinity="0" group="4"/>
-            <camera name="table_cam" pos="0 0 0" fovy="60"/>
+            <camera name="table_cam" pos="0 0 0" fovy="25"/>
         </body>
       </body>
     </body>

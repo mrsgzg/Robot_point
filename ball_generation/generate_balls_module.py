@@ -66,7 +66,7 @@ def generate_balls_xml(xml_path, output_path="model_with_balls.xml", num_balls=1
         tuple: (output_path, num_balls_added)
     """
     # Minimum distance between ball centers (2.2 times the diameter to prevent overlap)
-    min_distance = 2.2 * ball_size
+    min_distance = 3 * ball_size
     
     # Read the XML file
     with open(xml_path, 'r') as f:

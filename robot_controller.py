@@ -118,7 +118,7 @@ class RobotController:
         
         # Add a small offset in y direction toward the robot base
         # This helps create a better pointing angle
-        pointing_pos[1] -= 0.05
+        #pointing_pos[1] -= 0.0
         
         return pointing_pos
     
