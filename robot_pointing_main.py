@@ -15,7 +15,7 @@ def main():
     parser = argparse.ArgumentParser(description='Run robot ball counting simulation with camera tracking')
     parser.add_argument('--xml_path', default='experiment_scen.xml', help='Path to the base XML model file')
     parser.add_argument('--output_path', default='model_with_balls.xml', help='Path to save the modified XML file')
-    parser.add_argument('--num_balls', type=int, default=5, help='Number of balls to generate')
+    parser.add_argument('--num_balls', type=int, default=15, help='Number of balls to generate')
     parser.add_argument('--ball_size', type=float, default=0.01, help='Size of the balls')
     parser.add_argument('--min_x', type=float, default=-0.1, help='Minimum x-coordinate for ball placement')
     parser.add_argument('--max_x', type=float, default=0.1, help='Maximum x-coordinate for ball placement')

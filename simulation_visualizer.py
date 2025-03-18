@@ -243,6 +243,8 @@ class SimulationVisualizer:
             
             # Handle pause timing for counting
             if self.motion_phase == "paused":
+                for j in range(self.model.nu):
+                    self.data.ctrl[j] = self.data.qpos[self.model.actuator_trnid[j, 0]]  # Hold current position
                 if current_time >= self.pause_until:
                     # Move to next ball
                     self.current_ball_index += 1

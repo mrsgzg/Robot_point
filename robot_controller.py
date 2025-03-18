@@ -315,7 +315,7 @@ class RobotController:
         tilt_angle = -np.arctan2(camera_to_ball[2], horizontal_distance)
         
         print(f'***pan_angle{pan_angle},tilt_angle{tilt_angle}***')
-        return pan_angle, tilt_angle
+        return pan_angle, -0.05
         
     def smooth_interpolation(self, t):
         """
