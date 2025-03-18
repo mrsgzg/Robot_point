@@ -213,7 +213,7 @@ class SimulationVisualizer:
         
         # Reset the simulation
         mujoco.mj_resetData(self.model, self.data)
-        
+        self.data.qpos[self.controller.camera_tilt_id] = -0.05
         # Initial pose - slightly raised arm
         for i, joint_idx in enumerate(self.controller.joint_indices):
             if i == 1:  # Joint 2 (shoulder)
@@ -236,11 +236,11 @@ class SimulationVisualizer:
             self.initial_camera_pan = self.data.qpos[self.controller.camera_joint_id]
         if self.controller.camera_tilt_id >= 0:
             self.initial_camera_tilt = self.data.qpos[self.controller.camera_tilt_id]
-        
+
         # Main rendering loop
         while not glfw.window_should_close(self.window):
             current_time = time.time()
-            
+
             # Handle pause timing for counting
             if self.motion_phase == "paused":
                 for j in range(self.model.nu):

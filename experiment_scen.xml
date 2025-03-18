@@ -168,7 +168,7 @@
         <body name="camera_mount" pos="0 0 0">
             <inertial mass="0.1" pos="0 0 0" diaginertia="0.0005 0.0005 0.0005"/>
             <!-- Tilt joint (vertical rotation) -->
-            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-90 90" damping="1" ref="-0.7"/>
+            <joint name="camera_tilt" type="hinge" axis="1 0 0" range="-180 180" damping="1" ref="-0.7"/>
           
             <!-- Camera geometry and sensor -->
             <geom name="camera_body" type="box" size="0.04 0.025 0.025" material="camera_body_mat" contype="0" conaffinity="0" group="4"/>
