@@ -9,7 +9,7 @@ script_to_run = "updated-main.py"
 base_command = ["python", script_to_run]
 
 # Run for each ball count from 5 down to 1
-for num_balls in range(5, 0, -1):
+for num_balls in range(10, 5, -1):
     print(f"\n--- Starting set with {num_balls} balls ---\n")
     
     # Create command with current number of balls
